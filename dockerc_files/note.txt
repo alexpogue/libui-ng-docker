@@ -1,0 +1,5 @@
+Subdirectories are for `dockerc` script temporary files.
+
+Besides the dockerc_conf.sh, don't add anything here manually.
+
+Build script copies and deletes files here at will, see README for main instructions.
