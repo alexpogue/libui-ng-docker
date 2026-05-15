@@ -1,0 +1,9 @@
+#!/bin/bash
+
+export APPDIR="$(dirname "$(readlink -f "$0")")"
+
+export GIO_MODULE_DIR=/dev/null
+unset GIO_EXTRA_MODULES
+unset GIO_USE_VFS
+
+exec "${APPDIR}/usr/bin/app"

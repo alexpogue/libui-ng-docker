@@ -1,0 +1,7 @@
+# AppDir/app.desktop
+[Desktop Entry]
+Type=Application
+Name=App
+Exec=app
+Icon=app
+Categories=Utility;

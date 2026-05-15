@@ -4,4 +4,4 @@
 
 # Run
 
-`./out/app`
+`./out/App-x86_64.AppImage`
